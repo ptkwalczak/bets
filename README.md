@@ -27,3 +27,5 @@ This is a boilerplate of a bettting app.
 - use worker api for processing events received on web socket for performance increase
 - introduce some api testing
 - for the sake of lack of time I just tested the ws connection, no proper presentation of the data, also I would consider adding paging or infinite scroll in bets lists view
+- I should get rid of all any typings, there are few left
+- I should remove move exports to seperate files I left some
