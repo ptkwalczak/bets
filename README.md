@@ -19,6 +19,7 @@ This is a boilerplate of a bettting app.
 
 # NOTES
 - more tests needed (nomrally I would add 80% coverage gate in CI/CI)
+- I realized I would use Jest instead of Jasmine just for the sake of parallel execution (this should be changed)
 - add e2e (I would consider cypres.io instead of protractor)
 - add proper logging, introduce log levels, configurable logging
 - add better error handling
