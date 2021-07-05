@@ -1,0 +1,27 @@
+@import './../../../../styles-variables.scss';
+.tile-container {
+  display: flex;
+  width: 350px;
+  height: 100%;
+  &:hover {
+    background-color: $highlight-color;
+  }
+  .icon {
+    margin: 10px;
+  }
+  .description {
+    flex-grow: 3;
+    .description-title {
+      font-weight: bold;
+    }
+    .description-content {
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+  }
+  .arrow {
+    margin-top: auto;
+    margin-right: 10px;
+    margin-left: auto;
+  }
+}

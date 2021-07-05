@@ -1,0 +1,9 @@
+<h1 class="login-header">You are not logged!</h1>
+<form [formGroup]="loginForm" class='login-form'>
+  <label for="username">username: </label>
+  <input id="username" type="text" formControlName="username" />
+
+  <label for="password">password: </label>
+  <input id="password" type="text" formControlName="password" />
+  <button class="button" type="submit">Log in</button>
+</form>

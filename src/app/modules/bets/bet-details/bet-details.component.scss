@@ -1,0 +1,19 @@
+.bet-id-container {
+  margin: 10px;
+  border-style: solid;
+  padding: 10px;
+  .bet-id {
+    .id-label {
+      color: red;
+      font-weight: bold;
+    }
+  }
+  .team-label {
+    color: green;
+    font-weight: bold;
+  }
+  .draw-label {
+    color: blue;
+    font-weight: bold;
+  }
+}

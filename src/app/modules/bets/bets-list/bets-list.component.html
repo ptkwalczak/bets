@@ -1,0 +1,22 @@
+// TODO: this should be made responsive and not using table
+// consider using infinite scrolling or pagination
+<table id="bets">
+  <tr>
+    <th>id</th>
+    <th>Team 1</th>
+    <th>Win Bet Team 1</th>
+    <th>Team 2</th>
+    <th>Win Bet Team 2</th>
+    <th>draw</th>
+  </tr>
+  <tr class=".bet-row" *ngFor="let bet of bets" (click)="navigateToDetails(bet)">
+    <td>{{ bet.id }}</td>
+    <td *ngFor="let team of bet['teams']">
+      {{ team.name }}
+    </td>
+    <td *ngFor="let team of bet['teams']">
+      {{ team.win }}
+    </td>
+    <td>{{ bet.draw }}</td>
+  </tr>
+</table>

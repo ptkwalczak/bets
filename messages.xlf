@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="6aaec43aa727a23e7a9d9cb76d716244541aeb2a" datatype="html">
+        <source> Let&apos;s bet<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;dot&quot;&gt;"/>.<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/ui-controls/header/header-component/header.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">header-app-name</note>
+      </trans-unit>
+      <trans-unit id="a079cbe048d3eee20822f5bc6fbcbf576b1586a7" datatype="html">
+        <source>hello</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/ui-controls/header/header-component/header.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,14 @@
+<div class="bet-id-container">
+  <div>DETAILS:</div>
+  <div class="bet-id">
+    <span class="id-label"> Id: </span>
+    {{ (bet$ | async)?.id }}
+  </div>
+  <div *ngFor="let team of (bet$ | async)?.teams">
+    <span class="team-label">Team name: </span> {{ team.name }}, {{ team.win }}
+  </div>
+  <div>
+    <span class="draw-label">Draw: {{ (bet$ | async)?.draw }}</span>
+  </div>
+  <img src="../../assets/coin.jpg" />
+</div>

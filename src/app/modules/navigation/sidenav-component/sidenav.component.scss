@@ -1,0 +1,44 @@
+@import './../../../../styles-variables.scss';
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 95%;
+  a {
+    padding: 5px;
+    position: relative;
+    &.settings {
+      margin-top: auto;
+      position: fixed;
+      top: 95%;
+    }
+    &:hover {
+      box-shadow: $box-shadow-color 0 0 0px;
+      border-left: 4px solid $hover-menu-item-color;
+      margin-right: -5px;
+    }
+  }
+}
+
+.hidden-menu {
+  background-color: $menu-tooltip-background-color;
+  border-color: green;
+  border-width: $menu-tooltip-border-width;
+  border-style: solid;
+  position: absolute;
+  z-index: 100;
+  text-align: center;
+  visibility: hidden;
+  width: 100px;
+  left: 105%;
+  line-height: 1.6;
+  top: 5px;
+}
+
+ul:hover .hidden-menu {
+  visibility: visible;
+  background-color: white;
+}

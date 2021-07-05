@@ -1,0 +1,10 @@
+<a (click)="navigateTo()">
+  <div class="tile-container">
+    <div class="icon"><i [ngClass]="tile.iconUrl"></i></div>
+    <div class="description">
+      <div class="description-title">{{ tile.title }}</div>
+      <div class="description-content">{{ tile.description }}</div>
+    </div>
+    <i class="fa fa-angle-right fa-2x arrow"></i>
+  </div>
+</a>

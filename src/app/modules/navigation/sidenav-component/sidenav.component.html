@@ -1,0 +1,9 @@
+<ul class="flex-container">
+  <a (click)="navigateTo(item)"
+    *ngFor="let item of menuItems; let last = last"
+    [class.settings]="last === true"
+  >
+    <li><i [ngClass]="item.icon"></i></li>
+    <div class="hidden-menu">{{ item.title }}</div>
+  </a>
+</ul>

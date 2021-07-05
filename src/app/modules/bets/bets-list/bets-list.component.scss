@@ -1,0 +1,32 @@
+@import '../../../../styles-variables.scss';
+
+#bets {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial;
+  margin-bottom: 50px;
+  margin: 10px;
+  tr {
+    cursor: pointer;
+    &:nth-child(even) {
+      background-color: $table-background-color-even;
+    }
+    &:hover {
+      background-color: $table-header-color;
+    }
+    th {
+      background-color: $table-background-color;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: $table-header-color;
+      color: white;
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    td {
+      border: 1px solid $table-border-color;
+      padding: 8px;
+    }
+  }
+}

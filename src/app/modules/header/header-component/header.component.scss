@@ -1,0 +1,20 @@
+@import './../../../../styles-variables.scss';
+
+.header-container {
+  background-color: $header-background;
+  display: flex;
+  .app-name {
+    color: $app-name-color;
+    padding-left: 1rem;
+    .dot {
+      color: $logo-dot-color;
+    }
+    .header-right-icons-container {
+      margin-left: auto;
+    }
+  }
+}
+
+.header-right-icons-container {
+  margin-left: auto;
+}
